@@ -1,0 +1,123 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+
+*.log
+
+# Unit test / coverage
+
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+
+# Django (если есть)
+
+# =========================
+
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# =========================
+
+# Environment variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Docker
+
+# =========================
+
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# =========================
+
+# VSCode / IDE
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# OS
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Node (если фронт есть)
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+
+# Build artifacts
+
+# =========================
+
+*.out
+*.err
+
+# =========================
+
+# Jupyter
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.swp
+*.swo
+*~
